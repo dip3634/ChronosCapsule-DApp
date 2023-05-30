@@ -15,10 +15,11 @@ A time-lapse photograph A single instant in time is preserved on the blockchain 
 
 **3 Digital assets and tokens**
 
-Anydigitalfilethatdepictsaparticularinstantintimecanserveasthedigitalassetforatimemoment captureNFT.Inthisinstance,we’vechosentoemployphotographs. Thenon-fungibletoken(NFT), which is a distinct digital asset that is maintained on the blockchain and signifies ownership of the digital asset, may be used as the token for a time moment capture. NFTs are unique digital assets that can represent any form of unique digital asset, including images, videos, audio files, and other types of media. They are created via smart contracts on blockchain networks like Ethereum. NFTs are distinctive because they each possess a distinct set of qualities that set them apart from other NFTs. Cryptographic hashing algorithms are used to generate a unique code that represents the NFT and its metadata, enabling its uniqueness. NFTs can be easily exchanged between people and purchased, sold, and traded in marketplaces built on blockchain technology. The ownership and authenticity of each moment can be confirmed and maintained on the blockchain by utilizing NFTs as the token for time moment capture NFTs. By doing so, fraud may be avoided and every moment can be guaranteed to be genuine unique and priceless as a collection. Because they have a longhistoryofbeingusedtorecordandretainmemories, photoswerechosenasthedigitalassetfor time-momentcaptureNFTs. Photographsserveasavisualrecordofacertainpointintimeandhave the capacity to stir up strong feelings and memories in individuals who view them. Photographs are a realistic option for usage in NFTs since they are simple to digitize and put on the blockchain as a digital asset. They can be used to represent a wide range of diverse occasions, from historical events to personal milestones, and are simple to share and access on a worldwide scale. Moreover, it is simple to digitize and store photos on the blockchain: Photos can be readily stored on the blockchain as an NFT as a digital asset. This makes it possible to provide a distinct and verifiable recordofownershipandvalidityforeachmomentthatisfilmed. Photosmayalsobequicklyshared and accessed from anywhere in the globe because they are in a digital format.
+Anydigitalfilethatdepictsaparticularinstantintimecanserveasthedigitalassetforatimemoment captureNFT.Inthisinstance,we’vechosentoemployphotographs. Thenon-fungibletoken(NFT), which is a distinct digital asset that is maintained on the blockchain and signifies ownership of the digital asset, may be used as the token for a time moment capture. NFTs are unique digital assets that can represent any form of unique digital asset, including images, videos, audio files, and other types of media. They are created via smart contracts on blockchain networks like Ethereum. NFTs are distinctive because they each possess a distinct set of qualities that set them apart from other NFTs. Cryptographic hashing algorithms are used to generate a unique code that represents the NFT and its metadata, enabling its uniqueness. NFTs can be easily exchanged between people and purchased, sold, and traded in marketplaces built on blockchain technology. The ownership and authenticity of each moment can be confirmed and maintained on the blockchain by utilizing NFTs as the token for time moment capture NFTs. By doing so, fraud may be avoided and every moment can be guaranteed to be genuine unique and priceless as a collection. Because they have a longhistoryofbeingusedtorecordandretainmemories, photoswerechosenasthedigitalassetfor time-momentcaptureNFTs. Photographsserveasavisualrecordofacertainpointintimeandhave the capacity to stir up strong feelings and memories in individuals who view them. Photographs are a realistic option for usage in NFTs since they are simple to digitize and put on the blockchain as a digital asset. They can be used to represent a wide range of diverse occasions, from historical events to personal milestones, and are simple to share and access on a worldwide scale. Moreover, it is simple to digitize and store photos on the blockchain: Photos can be readily stored on the blockchain as an NFT as a digital asset. This makes it possible to provide a distinct and verifiable record of ownership and validity for each moment that is filmed. Photos may also be quickly shared and accessed from anywhere in the globe because they are in a digital format.
 
 **4 Use case diagram**
 
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 002](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/ffab570a-00de-4db4-8d0b-1be120b87b1b)
 
 
 Here’s a description of the cases that are being dealt by the NFT:
@@ -37,33 +38,40 @@ Here’s a description of the cases that are being dealt by the NFT:
 
 **5 Wireframes**
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.003.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 003](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/86c9756f-37a3-415b-a573-453e872b6983)
+
 
 Figure 1: This is the introductory page of the application.
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.004.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 004](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/0a6533c4-9489-4cd2-836a-00517aeed326)
+
 
 Figure 2: This is the biding page, on which the bid can be placed.
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.005.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 005](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/455a5bf5-2553-48f0-9ba9-08ca5b6cdad3)
+
 
 Figure 3: This is the second stage of the biding page.
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.006.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 006](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/fbd83d07-71b2-4bf3-bac1-c94b99d05a84)
+
 
 Figure 4: The page which only owner can access and use to withdraw bid.
 
 **6 Smart Contract diagram**
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.007.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 007](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/c640262c-83a7-4d56-b28b-e8117ccbb72b)
+
 
 **7 Sequence diagram**
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.008.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 008](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/d0cc0005-9c71-4576-9d8b-cd11da8ff79a)
+
 
 **8 Architecture diagram**
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.009.jpeg)
+![Aspose Words c97c9e3d-d47b-4a95-8ee6-95355e3f38bd 009](https://github.com/dip3634/ChronosCapsule-DApp/assets/39851285/ccec07ac-eba2-4c74-b0dd-0e06fee5334b)
+
 
 **9 Local Deployment steps**
 
