@@ -1,16 +1,9 @@
-﻿**Blockchain Application Development**
-
-CSE-526
-
-Project phase 3 submission
-
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.001.png)
-
-*ChronosCapsule*
+﻿
+**ChronosCapsule**
 
 **1 Issues addressed**
 
-**Authenticity:** ByusingatemporalmomentcaptureNFT,theownershipandvalidityofthecaptured momentmaybeconfirmedontheblockchain,helpingtothwartfraudandguaranteethatthemoment is actually special and precious.
+**Authenticity:** By using a temporal moment capture NFT,the ownership and validity of the captured moment may be confirmed on the blockchain, helping to thwart fraud and guarantee that the moment is actually special and precious.
 
 **Scarcity:** The NFTs’ scarcity may be preserved by producing a finite number of time moment capture NFTs for each instant, which can assist to raise their value and attractiveness. **Preservation:** By using blockchain technology, it is possible to ensure that the moment is kept in a safe, decentralized manner, preventing the loss or erasure of the original event or memory. **Access:** The usage of time moment capture NFTs can also offer greater access to historical events or moments that might otherwise be challenging or impossible to access, especially for people who are physically unable to attend or experience the moment.
 
@@ -26,7 +19,7 @@ Anydigitalfilethatdepictsaparticularinstantintimecanserveasthedigitalassetforati
 
 **4 Use case diagram**
 
-![](Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.002.jpeg)
+![alt text](https://github.com/[dip3634]/[ChronosCapsule-DApp]/blob/[master]/Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.002.jpeg?raw=true)
 
 Here’s a description of the cases that are being dealt by the NFT:
 
