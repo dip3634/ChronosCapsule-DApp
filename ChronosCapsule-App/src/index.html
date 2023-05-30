@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chronos Time Capsule NFT</title>
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="js/wallet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="css/toastr.min.css" rel="stylesheet">
+    <script  src="js/dist/toastr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/app.js"></script>  
+    <style>
+      .container{
+        margin-left:5%;
+        margin-right: 5%;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: -webkit-fill-available;
+      }
+      .forms {
+        margin-right:0%;
+        border-right:1px solid #bebebe;
+      }
+      body {
+        background-image: url('./images/background.jpg');
+        background-color: #8595f5;
+        color: #212c35;
+      }
+      </style>
+  </head>  
+  <body> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Chronos Capsule NFT Dapp</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            
+            <span class="navbar-text  ml-auto">
+              <button id="connect-button" class = "btn btn-outline-info my-button">Connect to Metamask</button>
+            </span>
+          </div>
+        </nav>
+          <div class='container'>
+                <h1 class="mb-3 mt-4 text-center"></h1>
+                <hr>
+                <div class='row'>
+                    <div class='col-lg-2 forms'>
+                        <form>
+                            <h4>Mint Asset</h4>
+                            <div class="form-group">
+                              <label for="base_price">Price</label>
+                              <input type="number" class="form-control" id="base_price" placeholder="Enter asset base price">
+                            </div>
+                            <div class="form-group">
+                              <label for="urlOfAsset">Enter Asset URL</label>
+                              <input type="text" class="form-control" id="urlOfAsset" placeholder="Enter Asset URL">
+                            </div>                
+                            <button type="button" id='add_token' class="btn btn-info">Add</button>
+                          </form>
+                    </div>
+                    <div class='col-lg-2 forms'>
+                        <form>
+                            <h4>Bid Asset</h4>                      
+                            <div class="form-group">
+                                <label for="bid_asset_id">Asset Token Id</label>
+                                <input type="text" class="form-control" id="bid_asset_id" placeholder="Enter Token id">
+                              </div>
+                              <div class="form-group">
+                                <label for="bid_value">Bid Price</label>
+                                <input type="text" class="form-control" id="bid_value" placeholder="Enter Bid value">
+                              </div>
+                            <button type="button" id='bid_price' class="btn btn-info btn-sm">Bid</button>
+                          </form> 
+                      </div>
+
+                      <div class='col-lg-2 forms'>
+                        <form>
+                            <h4>Change Base Price</h4>                      
+                            <div class="form-group">
+                                <label for="change_asset_id">Asset Token Id</label>
+                                <input type="text" class="form-control" id="change_asset_id" placeholder="Enter Token id">
+                              </div>
+                              <div class="form-group">
+                                <label for="change_base_value">Bid Price</label>
+                                <input type="text" class="form-control" id="change_base_value" placeholder="Enter value">
+                              </div>
+                              <button type="button" id="change_base" class="btn btn-info btn-custom">Change Asset Value</button>
+                        </form> 
+                      </div>
+                      
+                      <div class='col-lg-2 forms'>
+                          <form>
+                              <h4>Sell Asset</h4>                      
+                              <div class="form-group">
+                                  <label for="sell_asset_id">Asset Token Id</label>
+                                  <input type="text" class="form-control" id="sell_asset_id" placeholder="Enter Token id">
+                                </div>
+                              <button type="button" id='sell_asset' class="btn btn-primary">Sell</button>
+                            </form> 
+                        </div>
+                        <div class='col-lg-2 forms'>
+                            <form>
+                                <h4>Withdraw  Bid</h4>
+                                <div class="form-group">
+                                  <label for="withdraw_asset_id">Asset Id</label>
+                                  <input type="text" class="form-control" id="withdraw_asset_id" placeholder="Enter Token id">
+                                </div>      
+                                <button type="button" id='withdraw_asset' class="btn btn-primary">Withdraw</button>
+                              </form>
+                          </div>
+                          <div class='col-lg-2 forms'>
+                              <form>
+                                  <h4>Cancel Auction</h4>
+                                  <div class="form-group">
+                                      <label for="transfer_asset_id">Asset Id</label>
+                                      <input type="text" class="form-control" id="cancel_asset_id" placeholder="Enter Token id">
+                                    </div>
+                                  <button type="button" id='cancel_asset' class="btn btn-danger">Cancel</button>
+                                </form>
+                            </div>
+              </div>
+              <hr>
+                <div class='col-lg-12'>
+                    
+                    <h4>All available assets with owner details</h4>
+                    <span id='balance'> </span>
+                        <div class="card-group" id='assets'>                
+                        </div>
+                  </div>
+            </div>
+          </div>
+
+
+</body>
+
+
+</html>
