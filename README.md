@@ -19,7 +19,7 @@ Anydigitalfilethatdepictsaparticularinstantintimecanserveasthedigitalassetforati
 
 **4 Use case diagram**
 
-![alt text](https://github.com/[dip3634]/[ChronosCapsule-DApp]/blob/[master]/Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.002.jpeg?raw=true)
+![](https://github.com/dip3634/ChronosCapsule-DApp/blob/master/Aspose.Words.c97c9e3d-d47b-4a95-8ee6-95355e3f38bd.002.jpeg?raw=true)
 
 Here’s a description of the cases that are being dealt by the NFT:
 
